@@ -3,4 +3,7 @@ By: Faith Igomodu
 Date: 5/8/2026
 
 ## Introduction 
-There are three ways to provision Google Cloud services: the web-based Google Cloud Console, Google Cloud Shell, a  CLI in your web browser, and a local installation of Google Cloud CLI on your desktop terminal. For this tutorial, we will use the local Google Cloud CLI to run the script the gcscript.sh script, automating the infrastructure setup for bacterial genome annotation with Nextflow.  The gcloud tool enables direct management of Google Cloud resources from your terminal for a script-base automation. In this project, the script uses gcloud to automate projection creation and set the active project configuration. Enable APIs, Batch, logging, and storage
+There are three ways to provision Google Cloud services: the web-based Google Cloud Console, Google Cloud Shell, a  CLI in your web browser, and a local installation of Google Cloud CLI on your desktop terminal. 
+For this tutorial, we will use the local Google Cloud CLI to run the script the gcscript.sh script, automating the infrastructure setup for bacterial genome annotation with Nextflow.  
+The gcloud tool enables direct management of Google Cloud resources from your terminal for a script-base automation. 
+In this project, the script uses gcloud to automate projection creation and set the active project configuration. Enable APIs, Batch, logging, and storage
