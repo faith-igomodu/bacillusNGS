@@ -4,9 +4,22 @@
 # Permission to copy and modify is granted under the public license
 
 
-#Create project
+#Project creation 
 gcloud projects create bacillus-thuringensis 
-#Set project 
 gcloud config set project bacillus-thuringensis 
 #Assign project to a billing account 
 gcloud alpha billing projects link [PROJECT_ID] --billing-account=[BILLING_ACCOUNT_ID]
+
+
+#Network configuration 
+#There are two options;  default network or custom network settings. 
+#default 
+gcloud services enable batch.googleapis.com compute.googleapis.com logging.googleapis.com storage.googleapis.com
+
+#custom 
+
+
+#Identity and Authuentication Management 
+
+
+
